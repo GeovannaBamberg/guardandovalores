@@ -1,0 +1,24 @@
+body{
+    background-color: cornflowerblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    text-align: center;
+
+}
+section{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px rgb(74, 104, 158);
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
+select{
+    width: 300px;
+}

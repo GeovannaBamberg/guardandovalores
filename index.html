@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <section>
+        <div><p>Número (entre 1 a 100): 
+            
+            <input type="number" name="entradaValor" id="entradaValor"> 
+            
+            <button onclick="analisar()">Adicionar</button>
+        
+        </p>
+        <select name="selecaoDeValores" id="selecao" size="10">
+        </select>
+        <br>
+        <button onclick="finalizar()" id="finalizar">Finalizar</button>
+        </div>
+        <div id="respostaDetalhada">
+            <p>Ao adicionar todos valores, clique em "Finalizar" para saber detalhadamente </p>
+        </div>
+    </section>
+    <footer>
+        <h4>&copy;Bolinho</h4>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
